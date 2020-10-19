@@ -86,8 +86,8 @@ public class BranchTest {
 
   @Test
   public void redTicket() {
-    run("redTicket", 5, 10);
-    Assert.assertEquals(2, get(v0));
+      run("redTicket", 2, 2, 2);
+    Assert.assertEquals(10, get(v0));
   }
 
 
